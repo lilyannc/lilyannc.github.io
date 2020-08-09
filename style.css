@@ -9,9 +9,24 @@ body {
 .navigation {
     box-sizing: border-box;
     background-color: #fdf8e2;
-    overflow:auto;
+    overflow: auto;
     padding: 18px 50px;
     position: relative;
     top: 0;
     width: 100%;
+    z-index: 999;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    color: #8699d1;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    margin: 0;
 }
