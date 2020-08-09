@@ -1,0 +1,15 @@
+body {
+
+}
+
+/*Navigation*/
+
+.navigation {
+    box-sizing: border-box;
+    background-color: #fdf8e2;
+    overflow:auto;
+    padding: 18px 50px;
+    position: relative;
+    top: 0;
+    width: 100%;
+}
