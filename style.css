@@ -10,12 +10,22 @@ body {
     box-sizing: border-box;
     background-color: #9cd0d1;
     overflow: auto;
-    padding: 5px 50px;
+    padding: 5px 35px;
     position: relative;
     top: 0;
     width: 100%;
     z-index: 999;
 }
+
+a.navbar {
+    color: #25776f;
+    text-decoration: none;
+}
+
+a.navbar:hover {
+    color: #084741
+}
+
 
 ul {
     padding: 0;
@@ -25,9 +35,10 @@ ul {
 li {
     color: #90b890;
     display: inline-block;
-    font-size: 16px;
-    font-weight: 400;
-    letter-spacing: 2px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    letter-spacing: 1px;
     margin: 0;
-    padding: 20px 18px 10px 18px;
+    padding: 10px 18px 10px 18px;
 }
