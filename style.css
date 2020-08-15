@@ -43,7 +43,24 @@ li {
     padding: 10px 18px 10px 18px;
 }
 
+/*Headers + Paragraphs*/
+
+h1 {
+    border: 1px solid #ac8daf;
+    border-radius: 7px;
+    background-color: #ac8daf;
+    font-weight: 400;
+}
+
+p {
+    border: 1px solid #e5dced;
+    border-radius: 7px;
+    background-color: #e5dced;
+    font-weight: 200
+}
+
 /*Table*/
+
 table {
     height: 100%;
     left: 10%;
