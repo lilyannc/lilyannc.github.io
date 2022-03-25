@@ -67,6 +67,11 @@ body {
   section p {
       font-size: 1.1rem;
   }
+
+  section iframe {
+      width: 50%;
+      height: 50%;
+  }
   
   .contents {
       width: 250px;
