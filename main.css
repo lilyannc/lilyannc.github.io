@@ -52,7 +52,7 @@ body {
   }
 
   section {
-    width: 80%;
+    width: 75%;
     margin: 0 auto;
   }
 
@@ -68,11 +68,33 @@ body {
       font-size: 1.1rem;
   }
 
-  section iframe {
-      width: 50%;
-      height: 50%;
-      max-width: 100%;
+  .container-right {
+      display: flex;;
+      flex-direction: row;
   }
+
+  .video-container {
+      height: 50%;
+      width: 50%;
+      padding-top: 20px;
+      padding-left: 50px;
+  }
+
+  .embed-container { 
+      width: 100%;
+      padding-top: 56.25%;
+      height: 0;
+      position: relative;
+    } 
+    
+    .embed-container iframe, .embed-container object, .embed-container embed {
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+    }
+
   
   .contents {
       width: 250px;
