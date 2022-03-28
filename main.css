@@ -91,7 +91,7 @@ body {
   }
 
   .img-container-left img{
-      max-width: 20vw;
+      max-width: 18vw;
       height: auto;
       margin: 0;
       padding-right: 50px;
@@ -99,7 +99,7 @@ body {
   }
 
   .img-container-right img {
-      max-width: 20vw;
+      max-width: 18vw;
       height: auto;
       margin: 0;
       padding-left: 50px;
@@ -115,7 +115,7 @@ body {
   }
 
   .gallery-right img {
-      width: 12vw;
+      width: 16vw;
       height: auto;
       margin: 0;
       padding-left: 5px;
@@ -130,7 +130,7 @@ body {
   }
 
   .gallery-left img {
-      width: 12vw;
+      width: 16vw;
       height: auto;
       margin: 0;
       padding-right: 5px;
