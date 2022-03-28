@@ -1,6 +1,7 @@
 body {
     margin: 0;
     font-family: 'Lato', sans-serif;
+    background-color: rgb(10, 10, 10);
   }
   
   * {
@@ -12,18 +13,19 @@ body {
     top: 0;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: center;
     padding: 1.5rem 2rem;
-    background-color: #333;
+    background-color: rgb(255, 255, 255);
     transition: top 500ms ease-in-out;
   }
 
   nav a {
-    color: #F0F8FF;
+    color: #000000;
     text-decoration: none;
     font-size: 1rem;
     text-transform: uppercase;
-    letter-spacing: 0.2em;
+    letter-spacing: 0.1em;
+    font-weight: 900;
   }
   
   nav.scroll-up,
@@ -39,6 +41,7 @@ body {
     font-weight: bold;
     text-transform: uppercase;
     letter-spacing: 0.2em;
+    padding-right: 20px;
   }
 
   .navbar {
@@ -52,30 +55,94 @@ body {
   }
 
   section {
-    width: 75%;
+    width: 70%;
     margin: 0 auto;
   }
 
   section h1 {
       font-size: 2rem;
+      color: rgb(196, 196, 196);
   }
 
   section h2 {
       font-size: 1.5rem;
+      color: rgb(196, 196, 196);
+  }
+
+  section h3 {
+      color: rgb(196, 196, 196);
   }
 
   section p {
       font-size: 1.1rem;
+      color: rgb(196, 196, 196);
   }
 
   .container-right {
-      display: flex;;
+      display: flex;
+      flex-direction: row;
+      padding-bottom: 50px;
+  }
+
+  .container-left {
+      display: flex;
+      flex-direction: row-reverse;
+      padding-bottom: 50px;
+  }
+
+  .img-container-left img{
+      max-width: 20vw;
+      height: auto;
+      margin: 0;
+      padding-right: 50px;
+      padding-top: 20px;
+  }
+
+  .img-container-right img {
+      max-width: 20vw;
+      height: auto;
+      margin: 0;
+      padding-left: 50px;
+      padding-top: 20px;
+  }
+
+  .gallery-right {
+      padding-top: 20px;
+      padding-left: 45px;
+      flex-grow: 0;
+      display: flex;
       flex-direction: row;
   }
 
+  .gallery-right img {
+      width: 12vw;
+      height: auto;
+      margin: 0;
+      padding-left: 5px;
+  }
+
+  .gallery-left {
+      padding-top: 20px;
+      padding-right: 45px;
+      flex-grow: 0;
+      display: flex;
+      flex-direction: row;
+  }
+
+  .gallery-left img {
+      width: 12vw;
+      height: auto;
+      margin: 0;
+      padding-right: 5px;
+  }
+
+  .text-container {
+      flex-grow: 1;
+  }
+
   .video-container {
-      height: 50%;
-      width: 50%;
+      height: 75%;
+      width: 75%;
       padding-top: 20px;
       padding-left: 50px;
   }
@@ -98,7 +165,7 @@ body {
   
   .contents {
       width: 250px;
-      border: 1px black;
+      border: 1px rgb(196, 196, 196);
       border-style: solid;
       padding: 10px;
       margin: 30px;
