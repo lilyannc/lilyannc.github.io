@@ -7,17 +7,3 @@
 #page {
 	width: auto;
 }
-#content {
-	width: auto;
-	float: none;
-	clear: both;
-}
-#sidebar {
-	width: auto;
-	float: none;
-	clear: both;
-}
-#footer {
-	width: auto;
-	display: none;
-}
