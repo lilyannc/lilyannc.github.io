@@ -100,7 +100,7 @@
 	  flex-direction: row;
   }
   .gallery-right img {
-	  width: 50vw;
+	  width: 40vw;
 	  height: auto;
 	  margin: 0;
 	  padding-right: 5px;
@@ -111,7 +111,7 @@
 	  flex-direction: row;
   }
   .gallery-left img {
-	  width: 50vw;
+	  width: 40vw;
 	  height: auto;
 	  margin: 0;
 	  padding-right: 5px;
@@ -133,5 +133,5 @@
   }
 
   iframe {
-	  width: fit-content;
+	  width: 80%;
   }
