@@ -84,37 +84,41 @@
   .container-left {
 	  padding-bottom: 50px;
   }
+  .img-container-left {
+	  justify-content: center;
+  }
   .img-container-left img{
 	  max-width: 80vw;
 	  height: auto;
 	  margin: 0;
+  }
+  .img-container-right {
 	  justify-content: center;
   }
   .img-container-right img {
 	  max-width: 80vw;
 	  height: auto;
 	  margin: 0;;
-	  justify-content: center;
   }
   .gallery-right {
 	  flex-grow: 0;
+	  justify-content: center;
   }
   .gallery-right img {
 	  width: 80vw;
 	  height: auto;
 	  margin: 0;
 	  padding-bottom: 5px;
-	  justify-content: center;
   }
   .gallery-left {
 	  flex-grow: 0;
+	  justify-content: center;
   }
   .gallery-left img {
 	  width: 80vw;
 	  height: auto;
 	  margin: 0;
 	  padding-bottom: 5px;
-	  justify-content: center;
   }
   .text-container {
 	  flex-grow: 1;
