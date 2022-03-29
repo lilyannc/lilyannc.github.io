@@ -180,6 +180,10 @@ body {
       color: #0082B9;
   }
 
+  li {
+    color: rgb(196, 196, 196);
+  }
+
   .gallery img{
     max-width: 30%;
     height: auto;
