@@ -130,7 +130,7 @@ body {
   section a:hover {
     text-decoration: underline;
   }
-
+  
   .container-left {
       display: flex;
       flex-direction: row-reverse;
