@@ -78,6 +78,13 @@
 	  font-size: 1.1rem;
 	  color: rgb(196, 196, 196);
   }
+  section a {
+	color: #58A6FF;
+	text-decoration: none;
+  }
+  section a:hover {
+	text-decoration: underline;
+  }
   .container-right {
 	  padding-bottom: 50px;
   }
@@ -132,8 +139,12 @@
 	  margin: 30px;
   }
   .contents a {
-	  color: #00A2E8;
+	  color: #58A6FF;
 	  text-decoration: none;
+  }
+
+  .contents a:hover {
+    color: #2f90ff;
   }
 
   iframe {

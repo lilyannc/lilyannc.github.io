@@ -84,6 +84,15 @@ body {
       padding-bottom: 50px;
   }
 
+  section a {
+    color: #58A6FF;
+    text-decoration: none;
+  }
+
+  section a:hover {
+    text-decoration: underline;
+  }
+
   .container-left {
       display: flex;
       flex-direction: row-reverse;
@@ -171,12 +180,12 @@ body {
   }
 
   .contents a {
-      color: #00A2E8;
+      color: #58A6FF;
       text-decoration: none;
   }
 
   .contents a:hover {
-      color: #0082B9;
+      color: #2f90ff;
   }
 
   li {
