@@ -95,7 +95,7 @@
 	  justify-content: center;
   }
   .img-container-left img{
-	  max-width: 80vw;
+	  width: 100vw;
 	  height: auto;
 	  margin: 0;
   }
@@ -103,7 +103,7 @@
 	  justify-content: center;
   }
   .img-container-right img {
-	  max-width: 80vw;
+	  max-width: 100vw;
 	  height: auto;
 	  margin: 0;;
   }
@@ -112,17 +112,18 @@
 	  justify-content: center;
   }
   .gallery-right img {
-	  width: 80vw;
+	  width: 100vw;
 	  height: auto;
 	  margin: 0;
 	  padding-bottom: 5px;
   }
+
   .gallery-left {
 	  flex-grow: 0;
 	  justify-content: center;
   }
   .gallery-left img {
-	  width: 80vw;
+	  width: 100vw;
 	  height: auto;
 	  margin: 0;
 	  padding-bottom: 5px;
