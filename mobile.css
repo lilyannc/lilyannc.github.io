@@ -11,7 +11,7 @@
   body {
 	margin: 0;
 	font-family: 'Lato', sans-serif;
-	background-color: gray;
+	background-color: black;
   }
   
   * {
@@ -138,7 +138,7 @@
 
   .video-container {
 	height: 100%;
-	width: 100%;
+	width: 56.25%;
 }
 .embed-container { 
 	width: 100%;
